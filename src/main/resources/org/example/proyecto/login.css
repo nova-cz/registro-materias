@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+StackPane {
+    -fx-font-family: "Inter", sans-serif;
+}
+
 .logo_container {
     -fx-background-color: #12385D;
 }
@@ -13,6 +19,7 @@
 .form_title {
     -fx-font-size: 20px;
     -fx-font-weight: 700;
+    -fx-text-fill: #12385D;
 }
 
 .form_input {
@@ -27,9 +34,15 @@
     -fx-background-color: #12385D;
     -fx-border-radius: 5px;
     -fx-text-fill: #FFF;
+    -fx-cursor:hand;
 }
 
 .close_button {
     -fx-background-color: #12385D;
     -fx-text-fill: #FFF;
+    -fx-cursor: hand;
+}
+
+.close_button:hover {
+    -fx-background-color: #ff3547;
 }
