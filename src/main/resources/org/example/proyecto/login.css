@@ -10,6 +10,7 @@ StackPane {
 
 .logo_title {
     -fx-text-fill: #FFF;
+    -fx-font-family: "Inter", sans-serif;
 }
 
 .form_container {
@@ -20,6 +21,7 @@ StackPane {
     -fx-font-size: 20px;
     -fx-font-weight: 700;
     -fx-text-fill: #12385D;
+    -fx-font-family: "Inter", sans-serif;
 }
 
 .form_input {
@@ -28,6 +30,7 @@ StackPane {
     -fx-border-color: #617992;
     -fx-border-radius: 5px;
     -fx-padding: 10px 5px;
+    -fx-font-family: "Inter", sans-serif;
 }
 
 .form_button {
@@ -35,12 +38,14 @@ StackPane {
     -fx-border-radius: 5px;
     -fx-text-fill: #FFF;
     -fx-cursor:hand;
+    -fx-font-family: "Inter", sans-serif;
 }
 
 .close_button {
     -fx-background-color: #12385D;
     -fx-text-fill: #FFF;
     -fx-cursor: hand;
+    -fx-background-radius: 3px;
 }
 
 .close_button:hover {
