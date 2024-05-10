@@ -1,2 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+.container {
+    -fx-font-family: "Inter", sans-serif;
+   -fx-background-color: #FFF;
+}
+
+.sidebar {
+     -fx-background-color: #12385D;
+}
+
+.img_profile {
+    -fx-background-radius: 100px;
+}
+
+.username {
+     -fx-font-size: 20px;
+}
+
+.logout_button {
+    -fx-background-radius: 3px;
+    -fx-background-color: #00b6e4;
+    -fx-cursor: hand;
+}
+
+.logout_button__text {
+     -fx-text-fill: #FFF;
+}
+
+.logout_button:hover {
+      -fx-background-color: #ff3547;
+}
+
+.tab_sidebar {
+    -fx-background-radius: 3px;
+    -fx-cursor: hand;
+    -fx-background-color: #12385D;
+}
+
+.tab_sidebar:hover {
+    -fx-background-color: #00b6e4;
+}
+
+.combobox {
+   -fx-background-color: #fff;
+   -fx-padding: 0px 10px;
+   -fx-border-color: #617992;
+   -fx-background-radius: 3px;
+}
+
+.search_btn {
+    -fx-background-color: #12385D;
+    -fx-cursor: hand;
+}
+
+.tableview {
+    -fx-border-color: #fff;
+    -fx-background-radius: 3px;
+}
+
+.tableview .column-header,
+.tableview .column-header .filler,
+.tableview .column-header-background .filler{
+    -fx-background-color: #12385D;
+}
+
+.tableview .column-header:first-child,
+.tableview .column-header:first-child .filler,
+.tableview .column-header-background:first-child .filler{
+    -fx-background-radius: 7px 0px 0px 7px;
+}
+
+.tableview .column-header:last-child,
+.tableview .column-header:last-child .filler,
+.tableview .column-header-background:last-child .filler{
+    -fx-background-radius: 0px 7px 7px 0px;
+}
+
+.tableview .column-header .label {
+    -fx-text-fill: white ;
+}
