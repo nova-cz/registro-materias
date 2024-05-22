@@ -87,7 +87,7 @@
                               </AnchorPane>
                               <AnchorPane layoutX="25.0" layoutY="378.0" prefHeight="27.0" prefWidth="201.0" styleClass="tab_sidebar">
                                  <children>
-                                    <Text fill="WHITE" layoutX="36.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inscripcion">
+                                    <Text fill="WHITE" layoutX="36.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inscripción">
                                        <font>
                                           <Font size="15.0" />
                                        </font>
@@ -121,7 +121,7 @@
                                              <font>
                                                 <Font name="Lato Regular" size="18.0" />
                                              </font></Button>
-                                          <Text layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inscripcion de Materias" AnchorPane.leftAnchor="0.0">
+                                          <Text layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inscripción de Materias" AnchorPane.leftAnchor="0.0">
                                              <font>
                                                 <Font name="Lato Regular" size="30.0" />
                                              </font>
@@ -157,7 +157,7 @@
                                         <TableColumn minWidth="0.0" prefWidth="100.0" text="Semestre" />
                                           <TableColumn minWidth="0.0" prefWidth="100.0" text="NRC" />
                                           <TableColumn minWidth="0.0" prefWidth="100.0" text="Cupo" />
-                                          <TableColumn minWidth="0.0" prefWidth="120.0" text="Calificacion" />
+                                          <TableColumn minWidth="0.0" prefWidth="120.0" text="Calificación" />
                                       </columns>
                                     </TableView>
                                  </children>
