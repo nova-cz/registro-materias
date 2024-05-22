@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane fx:controller="org.example.proyecto.LoginController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="200.0" prefWidth="200.0">
          <children>
@@ -36,17 +36,17 @@
                         <Font name="Lato Black" size="40.0" />
                      </font>
                   </Text>
-                  <TextField layoutX="40.0" layoutY="138.0" prefHeight="30.0" prefWidth="220.0" promptText="Matricula" styleClass="form_input">
+                  <TextField fx:id="matriculaField" layoutX="40.0" layoutY="138.0" prefHeight="30.0" prefWidth="220.0" promptText="Matricula" styleClass="form_input">
                      <padding>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </padding>
                   </TextField>
-                  <PasswordField layoutX="40.0" layoutY="194.0" prefHeight="30.0" prefWidth="220.0" promptText="Contraseña" styleClass="form_input" stylesheets="@login.css">
+                  <PasswordField fx:id="passwordField" layoutX="40.0" layoutY="194.0" prefHeight="30.0" prefWidth="220.0" promptText="Contraseña" styleClass="form_input" stylesheets="@login.css">
                      <padding>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </padding>
                   </PasswordField>
-                  <Button layoutX="40.0" layoutY="261.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="220.0" styleClass="form_button" stylesheets="@login.css" text="Ingresar" />
+                  <Button  onAction="#handleLoginButtonAction" layoutX="40.0" layoutY="261.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="220.0" styleClass="form_button" stylesheets="@login.css" text="Ingresar" />
                   <AnchorPane layoutX="252.0" layoutY="5.0" prefHeight="23.0" prefWidth="42.0" styleClass="close_button">
                      <children>
                         <ImageView fitHeight="14.0" fitWidth="18.0" layoutX="16.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
